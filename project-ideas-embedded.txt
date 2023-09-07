@@ -1,0 +1,50 @@
+Projects to begin with that help you step into the world of Embedded Systems.
+
+The classic program to work on any microcontroller is the Blinky LED. Blink the in-built LED as your first project on any microcontroller.
+
+The first controller I would suggest is the Arduino. Why? It is easy to understand, has a range of libraries, huge community, easy to begin with, is not costly, easily available, and many modules are designed to be compatible with it.
+
+Start with the understanding of actuators and sensors. Actuators are devices that take electrical signals or digital data from a microcontroller or a computer and convert them into physical actions such as switches, DC motors, servos, LEDs, relays, and speakers. Sensors are devices that detect and measure changes in the environment or physical parameters. They convert physical qualities into electrical signals that can be processed by microcontrollers. Ex, Temp sensors, Light sensors, Pressure sensors.
+
+Start with sensor interfacing. Take a good number of sensors, and start analyzing them. Sensors you could go with, Temperature and Humidity sensor, Laser emitter, Rotary encoders, Relays, Hall magnetic sensor, Flame sensor, IR receiver, Tap Module, Buzzers, switches, touch sensor.
+
+Some projects could be
+- Laser Security System
+- Home Automation System
+- IR Remote Control
+- Smart Home control
+- Touch activated LED lamp...etc
+
+Once you are good with them, do some tricky projects such as 
+- Traffic Light Controllers
+- Digital Dice with LED's
+- Morse code transmitter
+- Calculator
+- Memory game
+
+Step the learning up a bit more by learning the protocols. Start with UART, I2C, SPI project implementation. Know the devices that support the protocols and work with them.
+
+Ultra Sonic sensor, GPS module, LCD, Bluetooth module, GSM/GPRS module, Accelerometer and Gyroscope sensor, OLED display, RF transmitter and receiver module, WIFI modules, Zigbee.
+
+Some project with those and more would be
+- Distance Measurement
+- Real time tracking
+- LCD based display controller
+- Wireless communication using Bluetooth
+- Motion tracking
+- Mesh Networking
+
+List of a few more projects where you can integrate all the above would be
+- Smart home automation system
+- Weather station and data logging
+- Gesture controlled robot
+- Maze solving robot
+- Hand gesture recognition system
+- RFID based access control system
+- Self balancing robot
+- Smart irrigation system
+- Real time object detection and tracking.. and the list goes on
+
+NOTE: Explore these beginner projects with Arduino. Once comfortable, move on to more advanced controllers and projects.
+
+I would love to hear from more Experienced Embedded systems professionals and their approach to learning embedded systems. Do comment as it would be of great help for all.

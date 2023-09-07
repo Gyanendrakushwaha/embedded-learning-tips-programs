@@ -1,0 +1,61 @@
+~~~ 𝑺𝒐𝒎𝒆 𝑰𝒏𝒕𝒆𝒓𝒆𝒔𝒕𝒊𝒏𝒈 𝒑𝒓𝒐𝒃𝒍𝒆𝒎𝒔 𝒕𝒐 𝒘𝒐𝒓𝒌 𝒐𝒏 𝑩𝒊𝒕 𝑴𝒂𝒏𝒊𝒑𝒖𝒍𝒂𝒕𝒊𝒐𝒏𝒔 𝒊𝒏 𝑪 ~~~
+
+1. Write a function that toggles the 3rd and 5th bits of an 8-bit number.
+(e.g: I/P: 0b10100101, O/P: 0b10000101)
+
+2. Set Bits Without Using Arithmetic Operations. Implement a function that sets the first n bits of a byte to 1.
+(e.g: I/P: n=4, O/P: 0b11110000)
+
+3. Detecting Power of Two. Write a program to check if a given number is a power of two using bit manipulation.
+(e.g: I/P: 32, O/P: True)
+
+4. Count Set Bits. Design a function that counts the number of set bits (1s) in an integer without looping.
+(e.g: I/P: 0b11010110, O/P: 5)
+
+5. Swap Odd and Even Bits. Implement a function to swap odd and even bits in an integer.
+(e.g: I/P: 0b10101010, O/P: 0b01010101)
+
+6. Single Number in Array. Given an array where every element appears twice except for one, find the element using bitwise operations.
+(e.g: I/P: [4,1,2,1,2], O/P: 4)
+
+7. Implement Bitwise Right Shift. Implement a function to perform a bitwise right shift without using the '>>' operator.
+(e.g: I/P: 0b1101, 2, O/P: 0b0011)
+
+8. Isolate the Rightmost Set Bit. Write a function to isolate the rightmost set bit of an integer.
+(e.g: I/P: 0b10100000, O/P: 0b00100000)
+
+9. Generate All Possible Combinations of n Bits. Design a program that generates all the possible combinations of n bits.
+(e.g: I/P: n=3, O/P: 000, 001, 010, 011, 100, 101, 110, 111)
+
+10. Reverse Bits in a Byte. Implement a function to reverse the bits in a byte.
+(e.g: I/P: 0b11001001, O/P: 0b10010011)
+
+11. Check for Alternate Bits. Write a function to check if bits in a given number are in alternate pattern.
+(e.g: I/P: 0b10101010, O/P: True)
+
+12. Extract n Bits. Design a function to extract n bits from a byte starting from a given position p .
+(e.g: I/P: Byte: 0b10101100, n=3, p=2, O/P: 0b101
+
+13. Count Number of Flips to Convert A to B. Implement a function that counts the number of flips required to convert integer A to integer B .
+(e.g: I/P: A=29 (0b11101), B=15 (0b01111), O/P: 2)
+
+14. Determine if Two Integers Have Opposite Signs. Write a function to determine if two integers have opposite signs using bit manipulation.
+(e.g: I/P: -4, 5, O/P: True)
+
+15. Mask Certain Bits. Implement a function that masks (sets to zero) all bits except for the first n bits of an integer.
+(e.g: I/P: 0b10101111, n=4, O/P: 0b00001111)
+
+16. Rotate Bits. Design a program to rotate bits of a number to the left by k positions.
+(e.g: I/P: 0b10110011, k=3, O/P: 0b10011101)
+
+17. Check if Binary Representation of a Number is Palindrome. Write a function to check if the binary representation of a number is a palindrome.
+(e.g: I/P: 9 (0b1001), O/P: True)
+
+18. Find Parity of a Number. Implement a function to check if the number of 1s in the binary representation of a given number is even or odd.
+(e.g: I/P: 7 (0b0111), O/P: Odd)
+
+19. Implement XOR Without Using XOR Operator. Design a program to perform XOR operation on two numbers without using the XOR operator.
+(e.g: I/P: 5, 3, O/P: 6)
+
+20. Find a Unique Number in an Array. Given an array where all numbers appear three times except for one, which appears just once. Find the unique number using bitwise operations.
+(e.g: I/P: [6,1,3,3,3,6,6], O/P: 1)

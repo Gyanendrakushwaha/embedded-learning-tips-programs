@@ -1,0 +1,23 @@
+~~~ 𝑺𝒐𝒎𝒆 𝑰𝒏𝒕𝒆𝒓𝒆𝒔𝒕𝒊𝒏𝒈 𝑷𝒓𝒐𝒃𝒍𝒆𝒎𝒔 𝒕𝒐 𝒘𝒐𝒓𝒌 𝒐𝒏 𝑺𝒕𝒓𝒊𝒏𝒈𝒔 𝒊𝒏 𝑪 ~~~
+
+1) Print Duplicate characters from a string. (e.g: I/P: "apple" ,O/P: "p")
+2) Convert a string to its integer representation without using any built-in functions. (e.g., "1234" to 1234).
+3) Print the first non-repeated character from a string. (e.g: I/P: "swiss" ,O/P: "w")
+4) Find the longest palindrome substring in a given string.(e.g: I/P: "babad" ,O/P: "bab")
+5) Check if the string contains only digits.(e.g: I/P: "1234a" ,O/P: "False")
+6) Duplicate characters found in a string.(e.g: I/P: "programming" ,O/P: "r","g","m")
+7) Check if a string has balanced parentheses. (e.g: I/P: "()[{}]" ,O/P: "True")
+8) Count the occurrences of a given character in a string. (e.g: I/P: "apple",Char: 'p' ,O/P: "2")
+9) Check if two strings are anagrams of each other.(e.g: I/P: "listen" ,O/P: "silent")
+10) Reverse words in a given sentence without using any library method.(e.g: I/P: "Hello Word" ,O/P: "World Hello")
+11) Check if two strings are a rotation of each other.(e.g: I/P: "abcde" "cdeab" ,O/P: "Rotation: 2L"(Obtaining String B by rotating String A))
+12) Check if a given string is a palindrome.(e.g: I/P: "radar" ,O/P: "True")
+13) Count the number of vowels and constants in a given string.(e.g: I/P: "apple" ,O/P: Vowels: 2, Consonants: 3) 
+14) Reverse a string using recursion.(e.g: I/P: "hello" ,O/P: "olleh")
+15) Find all permutations of a string.(e.g: I/P: "ab" ,O/P: "ab","ba")
+
+By working on these problems, you'll get better at handling strings, making your code faster and smarter. You'll be knowledgeable in dealing with text data, even when memory is tight. Plus, by not using some usual functions, you'll learn how they work and how to make them even better. Some of these tasks will also teach you about saving space and memory – super important for anyone in embedded systems. 
+
+These problems would help you identify patterns in embedded systems programming. Some real-world interpretations of the above programs include, in a system that processes user commands or inputs, identifying repeated characters might help in error detection or input pattern recognition. A temperature sensor might send data as a string "23.5°C". Converting "23.5" to an actual number is crucial for further processing or control actions. Some error-correcting codes or encryption mechanisms might use palindromic patterns. Detecting these can be essential for data integrity checks and more...
+
+Sometimes programming even the simplest tasks can be challenging. But remember, we are learners. Do reach out to others for help or comment down your challenges so that others can help you.

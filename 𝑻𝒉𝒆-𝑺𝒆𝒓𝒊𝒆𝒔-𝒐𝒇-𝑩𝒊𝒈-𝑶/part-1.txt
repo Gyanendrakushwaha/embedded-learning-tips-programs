@@ -1,0 +1,69 @@
+Join me on the journey of learning the Big O Notation. This is Part 1 of the series.
+
+The "O" in Big O stands for "Order of,". Big O Notation describes how the performance of an algorithm varies with the size of the input effectively giving a worst-case or upper-limit scenario. It's like the speed limit sign on a road; you know you won't be going faster than that limit.
+
+O(1) – Constant Time
+ 
+O(1) means that no matter how big your input is, the algorithm takes a constant amount of time to complete. The time it takes doesn't depend on the size of the data set, it's as fast as you can get.
+ 
+Consider the scenario of checking your watch. Regardless of how busy you are, it takes the same quick glance to check the time on your watch. Another example would be pressing an elevator button. No matter which floor you are going to, pressing the button takes the same amount of time. 
+ 
+Accessing an array element by its index is an O(1) operation.
+ 
+int getElement(int arr[], int index) {
+   return arr[index];
+}
+ 
+Swapping two numbers in memory takes constant time, regardless of the values of the numbers.
+ 
+void swap(int *a, int *b) {
+   int temp = *a;
+   *a = *b;
+   *b = temp;
+}
+ 
+ 
+If you have a pointer to the head of a linked list, inserting a new node at the beginning is an O(1) operation.
+ 
+typedef struct Node {
+   int data;
+   struct Node *next;
+} Node;
+ 
+void insertAtHead(Node **head, int value) {
+   Node *newNode = malloc(sizeof(Node));
+   newNode->data = value;
+   newNode->next = *head;
+   *head = newNode;
+}
+ 
+In this example, the loop will always run 10 times, no matter what. The time it takes is constant, hence O(1).
+ 
+void fixedLoop() {
+   for (int i = 0; i < 10; i++) {
+       printf("This is iteration %d\n", i);
+   }
+}
+ 
+Here, the outer loop runs 5 times, and the inner loop runs 4 times. The total number of iterations is 5×4=20, which is a constant. So, the time complexity is still O(1).
+ 
+void nestedFixedLoops() {
+   for (int i = 0; i < 5; i++) {
+       for (int j = 0; j < 4; j++) {
+           printf("This is iteration (%d, %d)\n", i, j);
+       }
+   }
+}
+ 
+Even though this loop could run up to n times depending on the input array, if it contains a zero, the loop will exit early. However, this doesn't make it O(1); it's actually O(n) in the worst case when there's no zero.
+ 
+void loopWithEarlyExit(int arr[], int n) {
+   for (int i = 0; i < n; i++) {
+       printf("This is iteration %d\n", i);
+      
+       if (arr[i] == 0) {
+           break;
+       }
+   }
+}
+ 

@@ -1,0 +1,27 @@
+~~~𝑺𝒐𝒎𝒆 𝑰𝒏𝒕𝒆𝒓𝒆𝒔𝒕𝒊𝒏𝒈 𝑷𝒓𝒐𝒃𝒍𝒆𝒎𝒔 𝒕𝒐 𝒘𝒐𝒓𝒌 𝒐𝒏 𝑳𝒊𝒏𝒌𝒆𝒅 𝑳𝒊𝒔𝒕𝒔 𝒊𝒏 𝑪~~~
+
+1) Find Middle element of a singly linked list in one pass.( I/P: 1->2->3->4->5, O/P: 3)
+2) Find the length of a singly linked list.(I/P: 1->2->3->4, O/P: 4 )
+3) Reverse a linked list.(I/P: 1->2->3, O/P: 3->2->1 )
+4) Reverse a singly linked list without recursion.(I/P: 1->2->3, O/P: 3->2->1 )
+5) Remove duplicate nodes in an unsorted linked list.( I/P: 1->2->2->3, O/P: 1->2->3)
+6) Find nth node from end of a singly linked list.(I/P: 1->2->3->4 (n=2), O/P: 3 )
+7) Move last element to the front of a given linked list.(I/P: 1->2->3->4, O/P: 4->1->2->3 )
+8) Delete alternate nodes of a linked list.(I/P: 1->2->3->4, O/P: 1->3 )
+9) Pairwise swap elements of a linked list.(I/P: 1->2->3->4, O/P: 2->1->4->3 )
+10) Check if a given linked list contains a cycle and what would be the starting node?(I/P: 1->2->3 (3 points back to 1), O/P: True )
+11) Intersection point of two linked lists.(I/P: 1->2->3 & 4->5->3, O/P: 3 )
+12) Segregate even and odd nodes in a linked list.(I/P: 1->2->3->4, O/P: 2->4->1->3 )
+13) Merge two sorted linked lists.(I/P: 1->3->5 & 2->4->6, O/P: 1->2->3->4->5->6 )
+14) Add two numbers represented by linked lists.(I/P: 2->4 & 5->6 (24 + 56), O/P: 8->0 )
+15) Find sum of two linked list using stack.(I/P: 2->4 & 5->6 (24 + 56), O/P: 8->0 )
+16) Compare two strings represented as linked lists.(I/P: 'a'->'b'->'c' & 'a'->'b'->'c', O/P: Equal )
+17) Clone a linked list with next and random pointer.( I/P: 1->2->3 (random pointers set randomly), O/P: Cloned list with same structure and random pointers)
+18) Merge sort on a linked list.( I/P: 3->1->2, O/P: 1->2->3)
+19) Detect and remove loop in a linked list.(I/P: 1->2->3 (3 points back to 1), O/P: 1->2->3 )
+20) Flatten a multi-level linked list.(I/P: 1->2->3 (2 has child 4->5), O/P: 1->2->4->5->3 )
+
+Some practical uses of the above examples include In a sensor array, if data is collected sequentially and needs to be processed in two batches, quickly finding the middle can help split the data efficiently. A system logs data over time but needs to transmit the most recent data first (like a stack). Reversing the list can prepare it for transmission. In a telemetry system, retrieving the nth last data point (e.g., the second last sensor reading) directly. Replicating a task list in a real-time operating system where tasks have priorities and dependencies.
+
+
+By solving these linked list challenges, you'll get hands-on experience with key aspects of embedded systems. It's like training for a marathon: these exercises build the skills and confidence you need to excel in real-world embedded scenarios.

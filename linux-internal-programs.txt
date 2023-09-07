@@ -1,0 +1,67 @@
+Here are few problems on Linux internals, if practiced would help refresh your concepts on Linux and Data structures.
+
+1) Implement a Simple Shell
+Create a minimal shell in C that can execute basic Linux commands.
+(I/P: "ls -l", O/P: Directory listing)
+
+2) Custom malloc() and free()
+Implement your own malloc() and free() functions.
+
+3) Implement tail Command
+Create a program to mimic the Linux tail command.
+(I/P: File path, O/P: Last 10 lines of the file)
+
+4) Implement Priority Inversion Handling
+Simulate Priority Inversion and implement a solution.
+(I/P: None, O/P: Fixed Priority Inversion)
+
+5) Custom init Process
+Write a custom init process to replace the default init for embedded Linux.
+I/P: None, O/P: System booted with custom init
+
+6) Process Forking and Waiting
+Create a program that forks child processes and waits for them to complete.
+I/P: Number of child processes, O/P: Exit status of children
+
+7) Semaphore-based Producer-Consumer
+Implement a producer-consumer problem using semaphores.
+I/P: Number of items to produce and consume, O/P: Order of production and consumption
+
+8) User-Space File Reader
+Read a file from a user-space program using system calls.
+I/P: File name, O/P: File contents
+
+9) Thread Creation and Synchronization
+Create multiple threads and synchronize them using mutexes.
+I/P: Number of threads, O/P: Thread execution order
+
+10) Priority Inversion Problem
+Simulate the priority inversion problem and solve it using priority inheritance.
+I/P: Thread priorities, O/P: Execution order
+
+11) Filesystem Traversal using opendir and readdir
+Traverse a directory structure and print all filenames.
+I/P: Root directory, O/P: List of all files and directories
+
+12) User-Space to Kernel-Space Communication
+Implement a simple user-space to kernel-space communication using procfs.
+I/P: String message, O/P: Echoed message from kernel-space
+
+13) Zero-Copy Data Transfer
+Implement a zero-copy data transfer mechanism between two processes using shared memory.
+I/P: Data to transfer, O/P: Data received
+
+14) CPU Information Fetcher
+Write a program to fetch and display CPU information from /proc/cpuinfo.
+
+15) File Copy Program
+Write a program that copies one file to another using low-level file operations.
+I/P: Source and destination file paths, O/P: Copy status
+
+16) Mutex-based File Access
+Write a multi-threaded program where each thread attempts to write to a file. Use mutexes to ensure that only one thread writes to the file at any given time.
+I/P: Thread count, O/P: File with written data
+
+17) Command-line Argument Parser
+Write a C program that takes various command-line options and arguments and prints them.
+I/P: Command-line options and arguments, O/P: Parsed data

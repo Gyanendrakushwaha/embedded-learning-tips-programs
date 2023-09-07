@@ -1,0 +1,46 @@
+~~~ 𝑺𝒐𝒎𝒆 𝑰𝒏𝒕𝒆𝒓𝒆𝒔𝒕𝒊𝒏𝒈 𝒑𝒓𝒐𝒃𝒍𝒆𝒎𝒔 𝒕𝒐 𝒘𝒐𝒓𝒌 𝒐𝒏 𝑺𝒕𝒓𝒖𝒄𝒕𝒖𝒓𝒆 𝒂𝒏𝒅 𝑼𝒏𝒊𝒐𝒏𝒔 𝒊𝒏 𝑪 ~~~
+
+1) Define a structure to represent a 3D point in space. Write functions to calculate the distance between two points.
+(e.g: I/P P1(1.0,2.0,3.0), P2(4.0,6.0,8.0); O/P is Distance= 7.071 
+Use Distance formula D= Sqrt( (x2-x1)^2 + (y2-y1)^2 + ( z2-z1)^2))
+
+2) Define a structure for a student with name, roll number, and marks in 5 subjects. Calculate the average marks for a list of students. ( Structure with Arrays)
+(e.g: I/P: Name: "Alex", Roll: 105, Marks: [75, 80, 88, 82, 86]; O/P: Avg Marks: 82.2)
+
+3) Create a structure for a book with title, author, and price. Implement a function to discount the book's price by a given percentage.
+(e.g: I/P: Title: "Pride and Prejudice", Author: "Austen", Price: $30, Discount: 15%; O/P: New Price: $25.5 )
+
+4) Design a structure for an employee with an embedded structure for address (street, city, state, zip). ( Nested Structure)
+(e.g: I/P: Name: "Bob", Address: [Street: "456 Maple Rd", City: "Brookfield", State: "WI", Zip: "53005"]; O/P: Address: 456 Maple Rd, Brookfield, WI, 53005)
+
+5) Use a union to represent a 32-bit value that can be accessed as either two 16-bit values or four 8-bit values.
+(e.g: I/P: Value: 0xABCD1234; O/P: 16-bits: 0xABCD, 0x1234; 8-bits: 0xAB, 0xCD, 0x12, 0x34 )
+
+6) Define a structure and determine its memory size. Rearrange its members to minimize memory wastage due to alignment. ( Structure Memory Alignment)
+(e.g: I/P: Structure: int, char, short; O/P: Memory: 11 bytes; Optimized: 10 bytes )
+
+7) Implement a mini database for a library using an array of structures. Include functionalities like adding a new book and searching for a book by title. ( Array of Structures)
+(e.g: I/P: Add: "To Kill a Mockingbird", Search: "Mockingbird"; O/P: Found: "To Kill a Mockingbird" )
+
+8) Create a linked list of students using structures and dynamic memory allocation. ( Dynamic Memory with Structures)
+(e.g: I/P: Add Student: "Mia", Roll: 110; O/P: Student Mia, Roll: 110 Added )
+
+9) Use a union to interpret a 4-byte array as an integer and a floating-point number.
+(e.g: I/P: Bytes: [0x43, 0x48, 0x00, 0x00]; O/P: Float: 134.0 )
+
+10) Define a structure with bit fields to represent a set of configurations/settings for a device. ( Bit Fields for compact Structure)(e.g: I/P: Config: 1001; O/P: Setting 1 & 4: ON )
+
+16) Create a base structure for a vehicle with attributes like weight and max_speed. Extend this to derive structures for a car (with attributes like seating capacity) and a truck (with attributes like max_load) ( Structure Inheritance)
+(e.g: I/P: Truck, Weight: 8000kg, Speed: 120km/h, Load: 5000kg; O/P: Can load up to 5000kg )
+
+17) Define a structure for a complex number. Implement functions for addition, subtraction, multiplication, and division of two complex numbers.
+(e.g: I/P: Complex1: 4+5i, Complex2: 2+3i, SUB; O/P: Result: 2+2i )
+
+18) Use a union to convert endianness (big-endian to little-endian and vice versa) of an integer.
+(e.g: I/P: Int: 0xAABBCCDD; O/P: Converted: 0xDDCCBBAA )
+
+19) Define a structure for representing time (hours, minutes, seconds). Implement functions to add time durations and convert this duration to seconds.
+(e.g: I/P: Time1: 1h 20m, Time2: 0h 50m; O/P: Sum: 2h 10m, Seconds: 7800s )
+
+20) Design a union that can represent an error code as both an integer and a descriptive string.
+(e.g: I/P: Code: 500; O/P: Description: "Internal Server Error" )

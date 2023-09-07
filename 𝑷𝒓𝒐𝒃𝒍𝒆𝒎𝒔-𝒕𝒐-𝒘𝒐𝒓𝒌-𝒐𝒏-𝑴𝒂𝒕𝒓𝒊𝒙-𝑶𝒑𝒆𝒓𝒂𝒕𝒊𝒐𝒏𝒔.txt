@@ -1,0 +1,59 @@
+1) Implement matrix multiplication for two matrices without utilizing dynamic memory allocation.
+(e.g.: I/P: Matrix A = [[1, 2], [3, 4]], Matrix B = [[2, 0], [1, 3]] ; O/P: Result = [[4, 6], [10, 12]])
+
+2) Efficiently compute the transpose of a matrix using minimal auxiliary space.
+(e.g.: I/P: Matrix = [[1, 2], [3, 4]] ; O/P: Transpose = [[1, 3], [2, 4]])
+
+3) Represent a sparse matrix efficiently using a compressed format and perform matrix-vector multiplication.
+(e.g.: I/P: Matrix = [[5, 0, 0], [0, 8, 0], [0, 0, 3]], Vector = [1, 2, 3] ; O/P: Result = [5, 16, 9])
+
+4) Rotate a matrix representing grayscale image data by 90 degrees.
+(e.g.: I/P: Matrix (2x2) representing an image ; O/P: Rotated Matrix)
+
+5) Compute the power of a square matrix using the "square and multiply" method.
+(e.g.: I/P: Matrix A = [[2, 1], [1, 1]], Power = 3 ; O/P: Matrix raised to power 3)
+
+6) Compute the determinant of a 3x3 matrix without using recursion.
+(e.g.: I/P: Matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]] ; O/P: Determinant value)
+
+7) Check if a given matrix is symmetric.
+(e.g.: I/P: Matrix = [[1, 2, 3], [2, 3, 4], [3, 4, 5]] ; O/P: Symmetric)
+
+8) Extract the diagonal elements of a matrix and store them in an array.
+(e.g.: I/P: Matrix = [[1, 0], [0, 2]] ; O/P: Diagonal = [1, 2])
+
+9) Calculate the sum of each row and column for a matrix.
+(e.g.: I/P: Matrix = [[1, 2], [3, 4]] ; O/P: Row Sums = [3, 7], Column Sums = [4, 6])
+
+10) Normalize a matrix such that all values lie between 0 and 1.
+(e.g.: I/P: Matrix = [[10, 20], [30, 40]] ; O/P: Normalized matrix with values between 0 and 1)
+
+11) Compute the rank of a matrix.
+(e.g.: I/P: Matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]] ; O/P: Rank)
+
+12) Invert a 2x2 matrix without using library functions.
+(e.g.: I/P: Matrix = [[1, 2], [3, 4]] ; O/P: Inverse matrix)
+
+13) Implement Strassen’s method for matrix multiplication.
+(e.g.: I/P: Two matrices ; O/P: Multiplied matrix)
+
+14) Calculate the sum of boundary elements of a matrix.
+(e.g.: I/P: Matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]] ; O/P: Sum = 28)
+
+15) Check if a given matrix is a Toeplitz matrix (diagonal elements are same).
+(e.g.: I/P: Matrix = [[6, 7, 8], [7, 6, 7], [8, 7, 6]] ; O/P: Toeplitz)
+
+16) Extract the anti-diagonal elements of a matrix.
+(e.g.: I/P: Matrix = [[1, 2], [3, 4]] ; O/P: Anti-diagonal = [2, 3])
+
+17) Detect if a smaller matrix pattern exists within a larger matrix.
+(e.g.: I/P: Large Matrix, Small Matrix ; O/P: Position of small matrix in large matrix)
+
+18) Scale a matrix by a given factor.
+(e.g.: I/P: Matrix = [[1, 2], [3, 4]], Factor = 2 ; O/P: Scaled Matrix = [[2, 4], [6, 8]])
+
+19) Rotate a matrix 90 degrees in place.
+(e.g.: I/P: Matrix = [[1, 2], [3, 4]] ; O/P: Rotated Matrix = [[3, 1], [4, 2]])
+
+20) Traverse a matrix in a zigzag pattern.
+(e.g.: I/P: Matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]] ; O/P: Traversal = [1, 2, 4, 7, 5, 3, 6, 8, 9])

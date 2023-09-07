@@ -1,0 +1,41 @@
+𝑺𝒐𝒎𝒆 𝑰𝒏𝒕𝒆𝒓𝒆𝒔𝒕𝒊𝒏𝒈 𝒑𝒓𝒐𝒃𝒍𝒆𝒎𝒔 𝒕𝒐 𝒘𝒐𝒓𝒌 𝒐𝒏 𝑺𝒕𝒂𝒄𝒌𝒔 𝒂𝒏𝒅 𝑸𝒖𝒆𝒖𝒆𝒔 𝒊𝒏 𝑪 ~~~
+
+1) Byte-Packing Stack: Design a stack that stores data in a continuous memory space. Push 8-bit data onto the stack. Ensure that 32-bit words are packed efficiently without wastage.
+(e.g: I/P: Push 0x01, 0x02, 0x03, 0x04 ; O/P: Memory content - 0x04030201)
+
+2) String Message Queue: Implement a queue that stores and retrieves string messages.
+(e.g: I/P: Enqueue "HELLO", Enqueue "WORLD" ; O/P: Dequeue - "HELLO", Dequeue - "WORLD")
+
+3) Nested Statement Counter: Design a stack to simulate the nested structure of programming constructs (like loops or if-statements) and count their depth.
+(e.g: I/P: { { } } ; O/P: Depth - 2)
+
+4) Command Parser: Design a stack-based command parser. The parser should be able to handle nested commands and return their depth.
+(e.g: I/P: "{CMD1 {CMD2}}" ; O/P: Depth - 2)
+
+5) Expression Validator: Use a stack to validate arithmetic expressions. Check for balanced parentheses and ensure operators are correctly placed.
+(e.g: I/P: "(a+b) * (c-d)" ; O/P: Valid Expression)
+
+6) Palindrome Checker using Stack: Use a stack to check if a given word is a palindrome.
+(e.g: I/P: "RACECAR" ; O/P: Palindrome)
+
+7) Queue-based Sequence Generator: Implement a queue that can generate the Fibonacci sequence up to n numbers.
+(e.g: I/P: n = 5 ; O/P: 0, 1, 1, 2, 3)
+
+8) Function Call Logger: Implement a stack that logs function calls in a program, allowing the user to trace back the function calls.
+(e.g: I/P: Call FuncA, Call FuncB, Return ; O/P: Current function - FuncA)
+
+9) Queue-based Text Filter: Create a queue that filters out specific words from a given text.
+(e.g: I/P: Text - "Hello world", Filter - "world" ; O/P: "Hello")
+
+10) Recursive to Iterative Converter: Use a stack to convert a recursive algorithm (like the Fibonacci sequence) to its iterative counterpart.
+(e.g: I/P: Fibonacci(5) ; O/P: 5)
+
+11) Stack-based Text Editor: Design a stack-based system that can simulate basic text editing operations like undo and redo.
+(e.g: I/P: Add "Hello", Undo, Add "Hi" ; O/P: "Hi")
+
+12) Queue-based Logger: Implement a queue to log and retrieve system events. Ensure that when the queue is full, the oldest log is removed to accommodate the newest one.
+(e.g: I/P: Log "Event1", Log "Event2", Retrieve ; O/P: "Event1")
+
+13) Balanced Brackets in Matrix Operations:
+Problem: Given a string representing matrix operations, use a stack to ensure that all types of brackets ((), [], {}) are balanced.
+(e.g: I/P: A[2][3]*B{3}[4] ; O/P: Balanced)

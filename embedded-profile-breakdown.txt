@@ -1,0 +1,29 @@
+If you're interested in embedded systems, here's a breakdown of the various subfields within the industry:
+
+𝐄𝐦𝐛𝐞𝐝𝐝𝐞𝐝 𝐒𝐨𝐟𝐭𝐰𝐚𝐫𝐞 𝐄𝐧𝐠𝐢𝐧𝐞𝐞𝐫/𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫
+• IoT Developer - Specializing in BLE, WiFi LTE, and LORA-WAN
+• Application Developer
+• Driver Developer
+• Middleware Developer
+• BSP Developer
+• PLC and Ladder Logic Developer
+
+𝐄𝐦𝐛𝐞𝐝𝐝𝐞𝐝 𝐃𝐞𝐬𝐢𝐠𝐧 𝐄𝐧𝐠𝐢𝐧𝐞𝐞𝐫
+• FPGA Designer
+• Hardware and Electronic Designer
+• PCB Designer
+
+𝐄𝐦𝐛𝐞𝐝𝐝𝐞𝐝 𝐋𝐢𝐧𝐮𝐱 𝐃𝐞𝐯𝐞𝐥𝐨𝐩𝐞𝐫
+• Linux User Application Developer
+• Device Driver Developer
+• Kernel Developer
+• Linux BSP Developer
+• Network Driver Developer
+
+𝐎𝐭𝐡𝐞𝐫 𝐄𝐱𝐩𝐞𝐫𝐭𝐬 𝐢𝐧 𝐄𝐦𝐛𝐞𝐝𝐝𝐞𝐝
+• ROS Engineer
+• UAV/UGV Designer
+• Automotive and ADAS Engineer
+• Hypervisor Expert
+
+𝐐𝐀 𝐚𝐧𝐝 𝐑𝐓𝐋 𝐕𝐞𝐫𝐢𝐟𝐢𝐜𝐚𝐭𝐢𝐨𝐧 𝐄𝐧𝐠𝐢𝐧𝐞𝐞𝐫 𝐢𝐬 𝐚𝐥𝐬𝐨 𝐚𝐧 𝐢𝐦𝐩𝐨𝐫𝐭𝐚𝐧𝐭 𝐩𝐚𝐫𝐭 𝐨𝐟 𝐭𝐡𝐞 𝐢𝐧𝐝𝐮𝐬𝐭𝐫𝐲.

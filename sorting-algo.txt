@@ -1,0 +1,76 @@
+Are You Up for a Sorting Challenge? Here are 15 Unique Sorting Algorithm Problems to solve.
+
+1) Optimized Bubble Sort:
+- Sort an array using an optimized version of bubble sort.
+- Bubble Sort: This simple sorting algorithm works by swapping adjacent elements if they are in the wrong order. The optimization stops if no swaps are made during a pass.
+- I/P: [5, 2, 9, 1, 5, 6]; O/P: [1, 2, 5, 5, 6, 9]
+
+2) Linked List Insertion Sort:
+- Sort a singly-linked list using insertion sort.
+- Insertion Sort: A simple sorting algorithm that works by building a sorted array (or list) one element at a time.
+- I/P: 4 -> 2 -> 1 -> 5; O/P: 1 -> 2 -> 4 -> 5
+
+3) Recursive Merge Sort:
+- Sort an array using recursive merge sort.
+- Merge Sort: A divide and conquer algorithm that splits the array into halves, sorts them, and merges them back.
+- I/P: [38, 27, 43, 3, 9, 82, 10]; O/P: [3, 9, 10, 27, 38, 43, 82]
+
+4) Iterative Quick Sort:
+- Sort an array using iterative quick sort.
+- Quick Sort: Another divide and conquer algorithm that works by selecting a 'pivot' element and partitioning the array around the pivot.
+- I/P: [3, 1, 4, 1, 5, 9, 2, 6, 5]; O/P: [1, 1, 2, 3, 4, 5, 5, 6, 9]
+
+5) Heap Sort with Binary Max Heap:
+- Sort an array using heap sort with a binary max heap.
+- Heap Sort: Builds a binary max heap and then swaps the root with the last element, decreasing the heap size.
+- I/P: [3, 19, 1, 14, 8, 7]; O/P: [1, 3, 7, 8, 14, 19]
+
+6) Counting Sort for Negative Numbers:
+- Sort an array that includes negative numbers using counting sort.
+- Counting Sort: Works by counting the occurrences of each unique element and then positioning them in a sorted manner.
+- I/P: [4, 2, 2, 8, 3, 3, 1, -1, -2]; O/P: [-2, -1, 1, 2, 2, 3, 3, 4, 8]
+
+7) Radix Sort for Floating Points:
+- Sort an array of floating-point numbers using radix sort.
+- Radix Sort: Sorts numbers digit by digit, from the least significant digit to the most.
+- I/P: [0.42, 0.32, 0.33, 0.52, 0.37, 0.47, 0.51]; O/P: [0.32, 0.33, 0.37, 0.42, 0.47, 0.51, 0.52]
+
+8) Dynamic Gap Shell Sort:
+- Sort an array using shell sort with a dynamic gap sequence.
+- Shell Sort: A generalization of insertion sort that works by comparing elements that are distant rather than adjacent.
+- I/P: [9, 8, 3, 7, 5, 6, 4, 1]; O/P: [1, 3, 4, 5, 6, 7, 8, 9]
+
+9) Comb Sort:
+- Sort an array using comb sort.
+- Comb Sort: A variant of bubble sort that eliminates turtles, or small values near the end of the list.
+- I/P: [8, 4, 1, 14, 8, 2, 9, 5]; O/P: [1, 2, 4, 5, 8, 8, 9, 14]
+
+10) In-Place Merge Sort:
+- Sort an array using in-place merge sort.
+- In-Place Merge Sort: A variant of merge sort that sorts the array using a constant amount of extra space.
+- I/P: [12, 11, 13, 5, 6]; O/P: [5, 6, 11, 12, 13]
+
+11) Tim Sort:
+- Sort an array using Tim Sort.
+- Tim Sort: A hybrid sorting algorithm derived from merge sort and insertion sort.
+- I/P: [5, 21, 9, 1, 45, 15, 67]; O/P: [1, 5, 9, 15, 21, 45, 67]
+
+12) Bucket Sort:
+- Sort floating-point numbers using Bucket Sort.
+- Bucket Sort: Distributes elements into buckets, sorts individual buckets, and then concatenates them.
+- I/P: [0.897, 0.565, 0.656, 0.1234, 0.665, 0.3434]; O/P: [0.1234, 0.3434, 0.565, 0.656, 0.665, 0.897]
+
+13) Pigeonhole Sort:
+- Sort an array of positive integers using Pigeonhole Sort.
+- Pigeonhole Sort: Suitable for sorting elements where the range of key values is small.
+- I/P: [8, 3, 2, 7, 4, 6, 8]; O/P: [2, 3, 4, 6, 7, 8, 8]
+
+14) Cocktail Sort:
+- Sort an array using Cocktail Sort.
+- Cocktail Sort: A variation of Bubble Sort that sorts in both directions on each pass.
+- I/P: [5, 1, 4, 2, 8, 0, 2]; O/P: [0, 1, 2, 2, 4, 5, 8]
+
+15) Cycle Sort:
+- Sort an array in-place using Cycle Sort.
+- Cycle Sort: An in-place, unstable sorting algorithm that is optimal in terms of the total number of writes to the original array.
+- I/P: [20, 40, 50, 10, 30]; O/P: [10, 20, 30, 40, 50]

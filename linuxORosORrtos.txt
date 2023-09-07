@@ -1,0 +1,11 @@
+Which one is used for which? What to learn for what?
+𝑬𝒎𝒃𝒆𝒅𝒅𝒆𝒅 𝑳𝒊𝒏𝒖𝒙 𝒗𝒔 𝑬𝒎𝒃𝒆𝒅𝒅𝒆𝒅 𝑶𝑺 𝒗𝒔 𝑹𝑻𝑶𝑺
+
+In short,
+Embedded OS is a generic term for operating systems used in embedded systems. Embedded Linux is a specific type of embedded OS based on the Linux kernel. RTOS is designed with real-time responsiveness as its primary feature, ensuring immediate and predictable reactions to events.
+
+An Embedded Operating System is a specialized OS designed to perform dedicated functions or tasks within an embedded system, which might be part of a larger system. Unlike general-purpose operating systems, embedded OSes are optimized for specific hardware configurations and are typically resource-constrained, meaning they operate with limited computational resources. Due to their specialized nature, they often have a smaller footprint and require less overhead. Ex: Wearable devices, Smart home appliances, POS terminals. Platform examples: SymbianOS, ThreadX, Blackberry OS, QNX, VxWorks.
+
+Embedded Linux refers to the adaptation of the Linux operating system for embedded systems. Unlike standard Linux distributions that are designed for desktop or server use, Embedded Linux is tailored for devices with specific functions, often having limited memory and storage. The open-source nature of Linux allows manufacturers to customize the OS according to the requirements of their specific hardware and application needs. Ex: Smart TV's, Network Routers, Industrial Control Systems. Distributions: Yocto Projects, Buildroot, OpenWrt, Core Linux, Android.
+
+An RTOS is an operating system explicitly designed to meet the requirements of real-time systems, which require immediate and deterministic responses to events. Unlike general-purpose operating systems, where the focus might be on throughput or feature richness, an RTOS emphasizes predictability and swift response to critical events. Ex: Medical Equipment, Safety critical devices, Industrial automation. For RTOS: FreeRTOS, uC/OS, embOS, RTEMS, Zephyr, RT-Thread, mbed OS,

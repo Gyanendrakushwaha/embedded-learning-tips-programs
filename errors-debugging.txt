@@ -1,0 +1,57 @@
+𝑾𝒉𝒚 𝒅𝒊𝒅 𝒕𝒉𝒆 𝒅𝒆𝒗𝒆𝒍𝒐𝒑𝒆𝒓 𝒃𝒆𝒄𝒐𝒎𝒆 𝒂 𝒛𝒐𝒎𝒃𝒊𝒆? 𝑩𝒆𝒄𝒂𝒖𝒔𝒆 𝒉𝒊𝒔 𝒄𝒐𝒅𝒆 𝒌𝒆𝒑𝒕 𝒄𝒐𝒎𝒊𝒏𝒈 𝒃𝒂𝒄𝒌 𝒘𝒊𝒕𝒉 '𝒖𝒏𝒅𝒆𝒂𝒅 𝒆𝒓𝒓𝒐𝒓𝒔'!
+
+Debugging is a challenging task while programming practice. We do face many unknown warnings and errors during our programming journey. Here is a list of few common errors that would occur during the compilation of our code.
+
+Do comment down a challenging situation you faced while debugging an error. One that took 10 hours to debug but was solved with just a ";" .
+
+
+Syntax Errors:
+"expected ';', ',' or ')' before ...": Missing punctuation or incorrect syntax in the code.
+"expected expression before ...": Missing an expression where it's expected, like in a statement or condition.
+"invalid type argument of '->' (have 'struct ...')": Trying to use '->' on a non-pointer type.
+"expected declaration specifiers or '...' before ...": Missing type or specifier before an identifier.
+
+Semantic Errors:
+"undefined reference to ...": Function or variable declared but not defined.
+"incompatible types for assignment": Assigning values of incompatible types.
+"lvalue required as left operand of assignment": Trying to assign a value to a non-variable.
+"expression has no effect": Expression doesn't affect the program's behavior.
+"too few arguments to function ...": Function call with fewer arguments than needed.
+"subscripted value is neither array nor pointer nor vector": Using '[]' on a non-array, non-pointer.
+
+Linking Errors:
+"undefined reference to 'main'": Missing `main` function (entry point).
+"undefined reference to '...'": Function or variable not defined but referenced.
+
+Type and Conversion Errors:
+"incompatible types in assignment": Assigning values of different types.
+"void value not ignored as it ought to be": Using a void function's return value.
+"request for member '...' in something not a structure or union": Trying to access a member of a non-struct/union.
+
+Memory and Pointer Errors:
+"dereferencing pointer to incomplete type": Using a pointer to an incomplete type.
+"invalid use of undefined type 'struct ...'": Using a struct/union member without defining the struct/union.
+"lvalue required as unary '&' operand": Missing variable for `&` operator.
+"invalid type argument of unary '*' (have 'int')": Applying `*` to a non-pointer type.
+"void function '...' should not return a value": Void function returning a value.
+"free(): invalid next size (fast)": Invalid memory management (e.g., double-free).
+
+
+File and I/O Errors:
+"'...' undeclared (first use in this function)": Using a variable without declaring it.
+"too many arguments to function ...": Function call with more arguments than expected.
+"'...' has no member named '...'": Using a member that doesn't exist in a struct/union.
+"expected ')' before '...' token": Missing closing parenthesis.
+
+Preprocessor Errors:
+"'...' was not declared in this scope": Using a macro or variable not defined in the scope.
+"unterminated 'if' directive": Unclosed `hashtag#if` or `hashtag#ifdef` directive.
+"'hashtag#include' expects '...' or <...>": Incorrect format for include statement.
+
+Miscellaneous Errors:
+"division by zero": Attempting to divide by zero.
+"control reaches end of non-void function": Function missing return in all paths.
+"label '...' used but not defined": Using a label that's not defined.
+"case label does not reduce to an integer constant": Switch case label not a constant.
+"invalid digit '...' in octal constant": Using invalid digit in octal constant.
+"declaration does not declare anything": Empty declaration statement.
